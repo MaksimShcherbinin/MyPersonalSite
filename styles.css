@@ -22,7 +22,7 @@ header {
     gap: 60px;
 }
 
-.header_link {
+.link {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -40,8 +40,9 @@ header {
     border-radius: 0px;
 }
 
-.header_link:active {
+.link:hover {
     color: #b18835;
+    transition: all 0.3s;
 }
 
 .title {
@@ -59,10 +60,40 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+
+#my_photo {
+    height: 300px;
+    border-radius: 150px;
+    background-color: #f2f0ef;
     gap: 20px;
 }
 
-img {
-    height: 300px;
-    border-radius: 50px;
+.about {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #161513;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#up-buttom {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: #161513;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #F2F1EF;
+    margin-top: 40px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
